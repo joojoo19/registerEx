@@ -3,7 +3,7 @@ package user;
 import java.sql.Connection;
 import java.sql.*;
 
-public enum UserDAO {
+public class UserDAO {
 	private Connection con1;
 
 
