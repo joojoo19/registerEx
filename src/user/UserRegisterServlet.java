@@ -42,7 +42,7 @@ public class UserRegisterServlet extends HttpServlet {
 		String userName = request.getParameter("userName");
 		String userAge = request.getParameter("userAge");
 		String userGender = request.getParameter("userGender");
-		String userEmail = request.getParameter("userID");
+		String userEmail = request.getParameter("userEmail");
 		if(userID == null || userID.equals("") || userPW1 == null || userPW1.equals("") || userPW2 == null || userPW2.equals("") ||
 		   userName == null || userName.equals("") || userAge == null || userAge.equals("") ||
 		   userGender == null || userGender.equals("") || userEmail == null || userEmail.equals("")) {
